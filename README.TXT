@@ -18,3 +18,4 @@ method prints a list of the collection.
 
 Answers:
 21: Screenshot
+22: Screenshot
