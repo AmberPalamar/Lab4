@@ -20,6 +20,7 @@ public class MusicOrganizer
     {
         files = new ArrayList<>();
         player = new MusicPlayer();
+        int index= newIndex();
     }
     
     /**
@@ -59,6 +60,13 @@ public class MusicOrganizer
     {
         for(String filename : files) {
             System.out.println(filename);
+        }
+    }
+    
+      public void listWithIndex()
+    {
+        for(String filename : files) {
+            System.out.println(filename + (index));
         }
     }
     
