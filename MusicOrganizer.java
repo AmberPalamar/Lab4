@@ -84,6 +84,16 @@ public class MusicOrganizer
             }
         }
     }
+    public void playAllSamples(String searchstring)
+    {
+        for(String filename : files){
+            if(filename.contains(searchString)){
+                //A match.
+                System.out.println(filename);
+            
+            }
+        }
+    }
     /**
      * Remove a file from the collection.
      * @param index The index of the file to be removed.
